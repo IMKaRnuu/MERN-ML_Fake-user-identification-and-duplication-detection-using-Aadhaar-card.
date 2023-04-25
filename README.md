@@ -1,4 +1,4 @@
-# MERN+AI_Aadhar-based-user-enrollement-system
+# MERN+ML_Aadhar-based-user-enrollement-system
 
 
 
