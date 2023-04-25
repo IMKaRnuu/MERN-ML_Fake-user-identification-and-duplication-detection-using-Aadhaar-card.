@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-proxy-middleware": "^2.0.6",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "python-shell": "^5.0.0",
+    "twilio": "^4.7.2"
+  }
+}

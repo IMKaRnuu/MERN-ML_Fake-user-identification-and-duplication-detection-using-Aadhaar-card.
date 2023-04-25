@@ -1,0 +1,103 @@
+
+
+  /* WORKING */
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+  }
+  /* .back{
+    background-image: url("C:/Users/91976/OneDrive/Desktop/logoutPr/dnj2/client/src/Components/imageWeb/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 197px;
+    padding-top: 30px;
+
+  } */
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ddd;
+    opacity: 0;
+    transform: scale(0.5);
+    animation: fadeInAndScaleUp ease-in-out 0.5s forwards;
+  }
+  @keyframes fadeInAndScaleUp {
+    0% {
+      opacity: 0;
+      transform: scale(0.3);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  label {
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  p {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  .loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100%;
+    border-radius: 10px;
+    z-index: 999;
+  } 
+  
+

@@ -1,0 +1,76 @@
+.app-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("C:/Users/91976/OneDrive/Desktop/logoutPr/dnj2/client/src/Components/imageWeb/background.png");
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding-bottom: 340px;
+   
+  }
+
+  .face{
+     margin-top: 50px; 
+    padding-left: 21%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+   
+    
+  }
+  
+  .webcam-container1 {
+    padding-left: 330px;
+    margin-bottom: 15px; 
+   margin-top: 60px;
+
+   
+    
+  }
+  
+  .capture-button {
+    padding: 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px; 
+    width: 65%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    
+  }
+  
+  .detection-button {
+
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 65%;
+    
+    
+  }
+  
+  .result-text {
+    font-size: 28px;
+   
+  }
+  
+  .loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100%;
+    border-radius: 10px;
+    z-index: 999;
+  } 
+  
+  

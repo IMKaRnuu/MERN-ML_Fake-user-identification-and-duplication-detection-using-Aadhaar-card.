@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+ 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("C:/Users/91976/OneDrive/Desktop/logoutPr/dnj2/client/src/Components/imageWeb/background.png");
+  background-size: 100% 150%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* @media only screen and (max-width: 800px) {
+  body {
+    background-size: auto 100%;
+  }
+} */
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,108 @@
+
+
+/* Navbar styles */
+nav {
+    display: flex;
+    
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+   
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 20px;
+    
+  }
+  
+  
+  
+  /* Exam form styles */
+  .exam-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .exam-form label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .exam-form input[type="text"],
+  .exam-form input[type="number"],
+  .exam-form input[type="date"] {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  /* .exam[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    width: 10px;
+  }
+  
+  .exam[type="submit"]:hover {
+    background-color: #444;
+  } */
+  
+
+
+  .form1{
+    margin-top: 90px;
+    padding-bottom: 70PX;
+    margin-bottom: 50px;
+    height: auto;
+  }
+
+  .nav1{
+    margin-bottom: 0px;
+    height: 80px;
+  }
+
+  .btn1 {
+    margin-top: 10px;
+    margin-left: 1450px;
+    margin-bottom: 10px;
+    width: auto;
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .div1{
+    height: auto;
+  }
+
+  .exam1{
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .loading-overlay {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 100%;
+    border-radius: 10px;
+    z-index: 999;
+  } 
+  
+  

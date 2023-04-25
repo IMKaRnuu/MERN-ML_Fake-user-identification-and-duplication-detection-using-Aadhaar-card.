@@ -1,0 +1,112 @@
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+        width: 35%;
+        margin: 50px auto;
+        opacity: 0;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+        animation: fade-in 0.5s ease-out both, slide-in-fwd 0.5s cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s both;
+        text-align: center;
+        background-color: #edf4fa;
+        opacity: 0;
+  transform: scale(0.5);
+  animation: fadeInAndScaleUp ease-in-out 0.5s forwards;
+      }
+      
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @keyframes fadeInAndScaleUp {
+        0% {
+          opacity: 0;
+          transform: scale(0.3);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      
+      form label {
+        font-size: 18px;
+        margin-top: 30px;
+        font-weight: bold;
+        color: black;
+        text-align: left;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: all 0.3s ease-out;
+      }
+      
+      form input[type='text'],
+      form input[type='email'],
+      form input[type='date'] {
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #E8E6E6;
+        width: 70%;
+        box-sizing: border-box;
+        border: 2px solid black;
+        border-radius: 5px;
+        transition: all 0.3s ease-out;
+      }
+      
+      form label input[type='text']:focus,
+      form label input[type='email']:focus,
+      form label input[type='date']:focus {
+        transform: translateY(-10px);
+        font-size: 14px;
+        opacity: 0.8;
+      }
+      
+      form Button[type='submit'] {
+      
+       
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+        box-shadow: 0 0 10px #E8E6E6;
+        transition: all 0.2s ease-in-out;
+        padding: 15px;
+        
+      }
+      
+      form Button[type='submit']:hover {
+        background-color: #3e8e41;
+        transform: translateY(-2px);
+        box-shadow: 0 0 20px #E8E6E6;
+
+      }
+
+      .loading-overlay {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 100%;
+        border-radius: 10px;
+        z-index: 999;
+      } 
+      
+      
+      
+
